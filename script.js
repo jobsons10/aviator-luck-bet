@@ -12,7 +12,7 @@ const generate = function() {
 
     setTimeout(function() {
         loading.classList.add("display-none");
-        value.classList.remove("display-none"); 
+        value.classList.remove("display-none");
     }, 2000)
 
     // Generate a random number between 0 and 1
@@ -24,9 +24,9 @@ const generate = function() {
         var randomValue = (Math.random() * (1.20 - 1.05) + 1.05).toFixed(2);
     } else {
         // Generate a random value between 1.20 and 1.80
-        var randomValue = (Math.random() * (1.80 - 1.20) + 1.20).toFixed(2);
+        var randomValue = ((Math.random() * (1.80 - 1.20) + 1.20).toFixed(2));
     }
 
     // Update the value element with the new value
-    value.textContent = randomValue;
+    value.textContent = randomValue  + 'x';
 };

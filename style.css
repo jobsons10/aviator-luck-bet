@@ -20,28 +20,43 @@ body {
     align-items: center;
     gap: 16px;
     padding-top: 150px;
+    height: 100vh;
 }
 
 img{
-    width: 50%;
+    width: 40%;
     margin-bottom: 50px;
 }
 
 p{
-    background-color: white;
+    color: white;
     width: 50%;
     height: 35px;
-    font-size: 32px;
+    font-size: 29px;
+    font-weight: 500;
     text-align: center;
     border-radius: 5px;
 }
 
 button{
-    width: 50%;
+    width: 70%;
     height: 35px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
     border-radius: 5px;
+    cursor: pointer;
+    color: #E40539;
+}
+
+@media screen and (min-width: 600px){
+    html{
+        background-color: #272324;
+    }
+
+    body{
+        width: 360px;
+        margin: 0 auto;
+    }
 }
 
 

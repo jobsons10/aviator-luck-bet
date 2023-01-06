@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    padding-top: 150px;
+    padding-top: 130px;
     height: 100vh;
 }
 
@@ -32,21 +32,27 @@ p{
     color: white;
     width: 50%;
     height: 35px;
-    font-size: 29px;
+    font-size: 32px;
     font-weight: 500;
     text-align: center;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 button{
     width: 70%;
-    height: 35px;
+    height: 85px;
     font-weight: 600;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 27px;
     cursor: pointer;
-    color: #E40539;
+    background-color: #28a909;
+    color: #fff;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
 }
+
+
+
 
 @media screen and (min-width: 600px){
     html{
@@ -72,6 +78,7 @@ button{
   }
   .loading {
     --animacao: 1100ms;
+    margin-bottom: 20px;
   }
   .loading .bolinha {
    

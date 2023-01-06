@@ -13,7 +13,7 @@ const generate = function() {
     setTimeout(function() {
         loading.classList.add("display-none");
         value.classList.remove("display-none");
-    }, 4000)
+    }, 3000)
 
     // Generate a random number between 0 and 1
     var randomNumber = Math.random();

@@ -3,6 +3,27 @@
     src: url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+@keyframes plane {
+  0%{
+    transform: translate(0px, 0px);
+  }
+  20%{
+    transform: translate(5px, 5px);
+  }
+  40%{
+    transform: translate(5px, -5px);
+  }
+  60%{
+    transform: translate(-5px, 5px);
+  }
+  80%{
+    transform: translate(-5px, -5px);
+  }
+  100%{
+    transform: translate(0px, 0px);
+  }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +47,7 @@ body {
 img{
     width: 40%;
     margin-bottom: 50px;
+    animation: plane 5s infinite linear;
 }
 
 p{

@@ -45,9 +45,9 @@ body {
 }
 
 img{
-    width: 40%;
-    margin-bottom: 50px;
-    animation: plane 5s infinite linear;
+    width: 85%;
+    margin-bottom: 20px;
+    animation: plane 8s infinite linear;
 }
 
 p{

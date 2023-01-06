@@ -8,16 +8,16 @@
     transform: translate(0px, 0px);
   }
   20%{
-    transform: translate(5px, 5px);
+    transform: translate(6px, 6px);
   }
   40%{
-    transform: translate(5px, -5px);
+    transform: translate(6px, -6px);
   }
   60%{
-    transform: translate(-5px, 5px);
+    transform: translate(-6px, 6px);
   }
   80%{
-    transform: translate(-5px, -5px);
+    transform: translate(-6px, -6px);
   }
   100%{
     transform: translate(0px, 0px);
